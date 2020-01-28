@@ -3,7 +3,6 @@ package org.mazhuang.cleanexpert.ui;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +12,8 @@ import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.widget.Toolbar;
 
 import org.mazhuang.cleanexpert.R;
 import org.mazhuang.cleanexpert.callback.IScanCallback;
